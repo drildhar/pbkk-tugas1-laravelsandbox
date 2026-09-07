@@ -15,14 +15,14 @@ class PageController extends Controller
     public function index(): View
     {
         $mahasiswa = [
-            'nama' => 'Muhammad Rizqi Pratama',
-            'nrp' => '5025211042',
+            'nama' => 'Adriel Mahira Dharma',
+            'nrp' => '5025241097',
             'departemen' => 'Teknik Informatika',
             'fakultas' => 'Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)',
             'institusi' => 'Institut Teknologi Sepuluh Nopember (ITS) Surabaya',
-            'kelas' => 'Pemrograman Berbasis Kerangka Kerja (PBKK) - A',
+            'kelas' => 'Pemrograman Berbasis Kerangka Kerja (PBKK) - B',
             'semester' => 'Gasal 2026/2027',
-            'dosen' => 'Dr. Bambang Sutopo, S.Kom., M.T.',
+            'dosen' => 'Dwi Sunaryono, S.Kom., M.Kom.',
             'status' => 'Mahasiswa Aktif',
             'minat' => ['Software Architecture', 'Network Security', 'Distributed Systems', 'Agentic AI']
         ];

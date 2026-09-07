@@ -114,14 +114,14 @@
                         <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
                         <div>
                             <h6 class="mb-1 fw-bold text-dark">Blade Layout Inheritance</h6>
-                            <p class="mb-0 small text-muted">Menggunakan template induk terpusat <code>layouts/app.blade.php</code> dengan direktif <code>@yield</code> dan <code>@extends</code>.</p>
+                            <p class="mb-0 small text-muted">Menggunakan template induk terpusat <code>layouts/app.blade.php</code> dengan direktif &#64;yield dan &#64;extends.</p>
                         </div>
                     </div>
                     <div class="list-group-item px-0 py-3 border-bottom d-flex gap-3 align-items-start">
                         <i class="bi bi-check-circle-fill text-success fs-5 mt-1"></i>
                         <div>
                             <h6 class="mb-1 fw-bold text-dark">Proteksi XSS Otomatis</h6>
-                            <p class="mb-0 small text-muted">Rendering data sepenuhnya memanfaatkan sintaks kurung kurawal ganda Blade <code>@{{ $variabel }}</code>.</p>
+                            <p class="mb-0 small text-muted">Rendering data sepenuhnya memanfaatkan sintaks kurung kurawal ganda Blade <code>&#123;&#123; $variabel &#125;&#125;</code>.</p>
                         </div>
                     </div>
                     <div class="list-group-item px-0 py-3 d-flex gap-3 align-items-start">
